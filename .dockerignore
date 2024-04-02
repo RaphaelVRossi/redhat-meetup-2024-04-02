@@ -7,7 +7,7 @@
 !/pkg/**
 
 # db files
-# !/db/**
+!/db/**
 
 # Other files
 !.git
