@@ -6,7 +6,7 @@ WORKDIR /src
 COPY . .
 
 # Build
-RUN go get github.com/gandarez/redhat-meetup-2024-04-02/db
+# RUN go get github.com/gandarez/redhat-meetup-2024-04-02/db
 RUN go mod vendor
 RUN make build-linux-amd64
 
